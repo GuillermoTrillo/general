@@ -9,7 +9,7 @@ for i in range(8):
     entrada = input()
     t = float(entrada)
     #xT e yT são os cálculos para saber o X e o Y no instante t escolhido.
-    xT = 5 * (t ** 2) + 3 * (t**3) - 2
+    xT = 5 * (t ** 2) + 3 * t - 2
     yT = 2 * (t ** 3) + 5
     #xdel e ydel são a variação de cada coordenada em um periodo de tempo entre o t final escolhido e o t inicial escolhido.
     xdel = xT - Xcon
